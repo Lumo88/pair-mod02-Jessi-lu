@@ -59,9 +59,9 @@ SELECT City, CompanyName, ContactName,"Suppliers" AS Relationship
     
 -- EJERCICIO 6--Extraer todas las categorías de la tabla categories que contengan en la descripción "sweet" o "Sweet".
 
-SELECT CategoryName,'Description'
+SELECT CategoryName,Description
 	FROM categories
-	WHERE Description LIKE "sweet";
+	WHERE Description LIKE "%sweet%";
     
 SELECT *
 	FROM categories;
